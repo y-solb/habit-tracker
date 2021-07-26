@@ -15,7 +15,7 @@ const HabitAddForm = memo(({ onAdd }) => {
   return (
     <form className="add-form" onSubmit={onSubmit} ref={formRef}>
       <input type="text" className="input-box" ref={inputRef} />
-      <button className="add-btn">Add</button>
+      <button className="add-btn grey-btn">Add</button>
     </form>
   );
 });

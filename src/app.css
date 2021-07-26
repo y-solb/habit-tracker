@@ -127,6 +127,8 @@ body {
 
 .habit-name {
   padding: 0 1rem;
+  display: flex;
+  align-items: center;
 }
 
 .habit-button {
@@ -148,4 +150,30 @@ body {
 .habit-delete {
   font-size: 2rem;
   color: rgb(248, 75, 75);
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    border-radius: 0;
+  }
+  .navbar {
+    border-radius: 0;
+  }
+  .navbar-title,
+  .habit-button {
+    font-size: 24px;
+  }
+  .habit {
+    font-size: 18px;
+  }
+  .habit-count {
+    font-size: 18px;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+  }
 }

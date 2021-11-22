@@ -4,7 +4,8 @@
 - Class Component로 제작 후 React Hooks로 리팩토링
 
 ## Tech Stack
-React, React Hooks
+- React
+- React Hooks
 
 ## Demo Link
 🔗 <https://habit-tracker-solb.netlify.app/>
